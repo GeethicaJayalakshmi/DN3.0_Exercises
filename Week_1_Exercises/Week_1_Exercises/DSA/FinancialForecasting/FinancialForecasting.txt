@@ -1,0 +1,21 @@
+1. Understand Recursive Algorithms
+
+Q.Explain the concept of recursion and how it can simplify certain problems?
+
+Recursion is a programming method in which a function solves a problem by making direct or indirect calls to itself. The solution to the larger problem is constructed from the solutions to the smaller cases that are worked on during each recursive operation.
+Base Case and Recursive Case: In order to prevent infinite recursion, a recursive algorithm needs to have at least one base case that doesn't make a recursive call. Recursive calls are made and the problem size is decreased in the recursive situation.
+Benefits of Recursion
+1. Simplicity: For problems with a naturally recursive structure, such tree traversal, factorial computation, and Fibonacci sequence, recursive solutions might be more understandable and simpler to apply.
+2. Divide and Conquer: A lot of algorithms (like mergesort and quicksort) profit 
+
+4. Analysis
+
+Q.Discuss the time complexity of your recursive algorithm?
+
+The recursive algorithm has an O(n) time complexity, where n is the number of phases. This is as a result of the function making n recursive calls overall, one for each interval.
+
+Q.Explain how to optimize the recursive solution to avoid excessive computation?
+
+The Recursive Solution's Optimisation:
+Memorisation: Memorisation can be employed in recursive algorithms to prevent duplicate computations. Memorisation is the process of saving the outputs of costly function calls and using them again when the identical inputs are received.
+2. Iterative Approach: Performance can be increased and the expense of recursive calls can be avoided by converting the recursive solution to an iterative one.

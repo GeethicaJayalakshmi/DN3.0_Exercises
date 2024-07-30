@@ -1,0 +1,30 @@
+1. Understand Array Representation
+
+Q.Explain how Arrays Are Represented in Memory and Their Advantages?
+
+Memory Representation: Since arrays are kept in contiguous memory spaces, all of its components are kept close to one another. This makes indexing with basic arithmetic efficient.
+The element at index i is found at base_address + i * element_size, for instance, if an array begins at memory location base_address.
+Benefits
+1. Constant-Time Access: Arrays are highly efficient for retrieval since it takes O(1) to access any element by index.
+2. Cache Friendliness: Arrays have strong cache locality because of their contiguous memory allocation, which results in quicker access times.
+3. Predictable Memory use: Arrays have a set memory use at creation time, which in some cases might help with memory management.
+
+4. Analysis
+
+Q.Analyze the time complexity of each operation (add, search, traverse, delete)?
+
+Each operation's time complexity is as follows:
+1.Add Employee: O(1) - As long as there is room in the array, adding an employee is a constant-time operation.
+2.Search Employee: O(n) - The time complexity is proportionate to the number of employees since a linear search over the array is necessary.
+3.Traverse Employees: O(n) - It takes linear time to traverse the array and print each employee.
+4.Delete Employee: O(n) - There is a linear time complexity because deleting an employee necessitates moving elements in the array.
+
+Q.Discuss the limitations of arrays and when to use them?
+
+Arrays' Restrictions and When to Apply Them Are:
+1. defined Size: Since arrays have a defined size, you need to make sure you have enough space set aside when they are created. If the array is not used to its maximum potential, this may result in memory waste or the need to perform resizing operations.
+2. wasteful Deletion: For big arrays, deleting an element from the array necessitates relocating other elements, which is wasteful.
+3. Poor Insertion Performance: It can be inefficient to relocate elements in order to insert an element at a point other than the end.
+Use of arrays is advised:
+1. When Fixed Size Is Known: When the number of items is predetermined and does not fluctuate significantly, arrays are appropriate.
+2. When Quick Access Is Required: Arrays are perfect in situations when rapid

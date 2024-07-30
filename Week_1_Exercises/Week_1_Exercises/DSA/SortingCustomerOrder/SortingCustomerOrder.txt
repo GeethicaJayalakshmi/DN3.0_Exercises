@@ -1,0 +1,46 @@
+1. Understand Sorting Algorithms
+
+Q.Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).
+
+Bubble Sort: This algorithm iteratively traverses the list, compares neighbouring members, and replaces any that are out of order. Until the list is sorted, these steps are repeated.
+Complexity of Time:
+Optimal Situation: O(n)
+On average, O(n^2)
+O(n^2) is the worst case scenario.
+
+Description of Insertion Sort: Insertion Sort selects the subsequent element and inserts it into the appropriate location repeatedly, building the sorted array one element at a time.
+Complexity of Time:
+Optimal Situation: O(n)
+On average, O(n^2)
+O(n^2) is the worst case scenario.
+
+Quick Sort: Quick Sort is a divide-and-conquer algorithm that divides an array into items that are greater than and less than a pivot, then sorts the sub-arrays recursively.
+Complexity of Time:
+Optimal Case: O(n log n)
+Mean Situation: O(n log n)
+WorstCase: O(n^2)
+
+Merge Sort is a divide-and-conquer algorithm that divides an array in half, sorts the halves recursively, and then combines the sorted halves.
+Complexity of Time:
+Optimal Case: O(n log n)
+Mean Situation: O(n log n)
+At worst, O(n log n)
+
+4. Analysis
+
+Q.Compare the performance (time complexity) of Bubble Sort and Quick Sort?
+
+Bubble Sort:
+Best Case: O(n)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+Quick Sort:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2) (but rare with good pivot selection)
+
+Q.Discuss why Quick Sort is generally preferred over Bubble Sort.
+
+1. Efficiency: Bubble Sort's O(n^2) time complexity makes it substantially slower for huge datasets than Quick Sort's O(n log n) average and best-case time complexity.
+2. Scalability: Quick Sort works well for in-place sorting and is more effective when handling huge arrays.
+3.Practical Performance: Because Quick Sort has smaller constants and greater cache performance, it is really faster than Bubble Sort for the majority of inputs.
